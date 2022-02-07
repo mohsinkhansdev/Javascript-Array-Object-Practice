@@ -2,7 +2,6 @@
 
 
 
-
 var colour = ["red","blue","green"];
 
 colour
@@ -16,4 +15,22 @@ colour
 
 colour.push("oragne");
 colour.pop("pink");
+
+// JavaScript Object Practice
+var dog = {
+    name:"rusty",
+    age: 21,
+    city: "US" 
+}
+
+dog.age
+
+var person = { 
+name: "Travis", 
+age: 21,
+city: "london"}
+
+person ["name"] = "Tater";
+person.name
+'Tater'
 
